@@ -1,10 +1,11 @@
-// HTML ချိတ်ဆက်
+// Get the countdown timer element and main content element by their IDs
 var timerEl = document.getElementById('countdown');
 var mainEl = document.getElementById('main');
 
-// Arry စာအဖြစ်သတ်မှတ်
+// Define a message containing a quote
 var message =
   'Some say the world will end in 🔥, Some say in ice. From what I’ve tasted of desire, I hold with those who favor fire. But if it had to perish twice, I think I know enough of hate. To say that for destruction ice, Is also great, And would suffice.';
+// Split the message into individual words
 var words = message.split(' ');
 
 // Timer that counts down from 5
